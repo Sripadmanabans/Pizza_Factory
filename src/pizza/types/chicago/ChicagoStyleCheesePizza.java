@@ -10,7 +10,7 @@ public class ChicagoStyleCheesePizza extends Pizza {
 
     public ChicagoStyleCheesePizza() {
         name = "Chicago Style Sauce and Cheese Pizza";
-        dough = "Extra Thick Crust Dough";
+        dough = "Extra Thick Crust";
         sauce = "Plum Tomato Sauce";
 
         toppings.add("Shredded Mozzarella Cheese");
