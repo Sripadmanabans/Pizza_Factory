@@ -31,6 +31,6 @@ public abstract class PizzaStore {
      * @param type A string that contains the type of the pizza.
      * @return An object that contains the pizza based on the type.
      */
-    public abstract Pizza createPizza(String type);
+    protected abstract Pizza createPizza(String type);
 
 }
