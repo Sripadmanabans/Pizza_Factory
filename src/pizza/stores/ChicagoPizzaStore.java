@@ -23,8 +23,11 @@ public class ChicagoPizzaStore extends PizzaStore {
             case "Pepperoni":
                 pizza = new ChicagoStylePepperoniPizza();
                 break;
-            default:
+            case "Veggie":
                 pizza = new ChicagoStyleVeggiePizza();
+                break;
+            default:
+                pizza = null;
                 break;
         }
 
